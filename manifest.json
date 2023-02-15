@@ -1,0 +1,21 @@
+{
+  "name": "Generative AI Labs",
+  "short_name": "Generative AI",
+  "description": "AI-generated content only — take it with a grain of salt! 🔥💥",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#222",
+  "theme_color": "#fff"
+}
