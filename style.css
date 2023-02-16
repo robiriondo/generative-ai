@@ -158,6 +158,19 @@ article {
   letter-spacing: 0.1px;
 }
 
+article .author h5, article .author p {
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  opacity: .8;
+}
+
+article .author a {
+  color: #222;
+  text-decoration: unset;
+}
+
 article .title {
   font-size: 2em;
   font-weight: 700;
