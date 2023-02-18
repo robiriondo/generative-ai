@@ -66,11 +66,12 @@
     </script>
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
       <h1>Generative AI Lab</h1>
-      <h2>AI-generated content only — take it with a grain of salt! 🔥💥</h2>
+      <h2>🔥🚀 💥Read a TL;DR of any AI article — Proudly made with generative AI!</h2>
       <nav>
     		<a class="active" href="#">Home</a>
     		<a href="https://txt.generativeailab.org/about" target="_blank" rel="noopener">About</a>
@@ -167,8 +168,19 @@
     </main>
     <a href="#" class="back-to-top">^</a>
     <footer>
+      <a href="https://twitter.com/generativeailb" target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/generative-ai-lab" target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <p>&copy; <span id="year"></span> Generative AI Lab. All Rights Reserved.</p>
     </footer>
     <script>
+      // Get current year and update HTML
+      const currentYear = new Date().getFullYear();
+      document.getElementById("year").textContent = currentYear;
+
       // Function to toggle mobile navigation menu
       function toggleMenu() {
         var navElement = document.getElementsByTagName("nav")[0];

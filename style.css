@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6, p, div, section {
 /* Blog */
 .hero figure {
   max-width: 100%;
-  margin: 0 !important; 
+  margin: 0 !important;
 }
 
 article {
@@ -188,4 +188,14 @@ article .subtitle {
 
 article h3, article h4, article strong {
   font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer a {
+  text-decoration: unset;
+  color: #135656;
 }
